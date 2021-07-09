@@ -1,0 +1,478 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+          <title>About Us</title>
+      <style type="text/css">
+              
+      
+      .affix
+      {
+          top:0;
+          width:100%;
+          z-index:9999 !important;
+      }
+      
+      .affix  .container-fluid
+      {
+        padding-top:50px;   
+      }
+      
+      .img
+      {
+          margin-top:25px;  
+      }
+      h4
+      {
+          color:Blue;
+          margin-left:80px;
+          font-family:Algerian;
+          font-size:26px;
+      }
+      
+           
+      .navbar 
+      {
+        background-color:transparent !important;  
+        background:transparent;
+        border-color:transparent;
+        
+      }
+      .navbar .navbar-collapse
+      {
+         background-color:Black; 
+      }
+      
+      p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  
+  #shiva
+{
+  width: 100px;
+	height: 100px;
+	background-color:cyan;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:right;
+  margin:5px;
+  margin-top:20px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:0px;
+  font-size:25px;
+}
+
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+  font-size : 20px;
+  font-color: black;
+}
+/* Social floating icons here*/
+body {
+  /*background: #E5D5CA;*/
+  background:#ffffff;
+}
+
+.text {
+  margin: 0 60px;
+}
+
+
+
+.twitter {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 14px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+
+img {
+  max-width: 100%;
+}
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+  background: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #000;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #000 !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+
+.float-fb {
+  top: 160px;
+}
+
+.float-tw {
+  top: 215px;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-yo {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+.float-te {
+  top: 435px;
+}
+/* Floating Social Media Bar Style Ends Here */
+  
+    /*=============================================================================*/
+   
+   .dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}   
+
+
+      </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+    <!--==========================================================Bootstrap Coding Start===============================================================-->
+    
+            
+    <!--------------------------------------------------------------Navigation Bar------------------------------------------------------------------------>
+                <div class="navbar">
+                <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100" >
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Index.html">ESCAPE</a>
+                    <div class="collapse navbar-collapse" id="myNavbar" >
+
+<!--===========================================================Multilevel Drop down=================================================-->
+
+                        <ul class="nav navbar-nav">
+                <li><a href="Index.html"><span class="glyphicon glyphicon-home">HOME</span></a></li>
+                <li>
+                    <a href="ComingSoon.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-briefcase">TEACHER</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                      <!--<li><a href="ComingSoon.html">Watch Training Videos</a></li>-->
+                      <li><a href="Teacher.html">Monitor Student Progress</a></li>
+                      <li><a href="ComingSoon.html">Attend Class</a></li>
+                   </ul>
+                        
+                </li>
+                <li>
+                  <a href="ComingSoon.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-book">STUDENT</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                      <li><a href="JoinClass.html">Attend Class</a></li>
+                      
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="ComingSoon.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th">ADMIN</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+
+                        <li class="dropdown-submenu">
+                            <a href="ComingSoon.html" class="dropdown-toggle" data-toggle="dropdown">Manage Class</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="signup/signup.html">Enroll Teacher</a></li>
+                              <li><a href="signup/signup.html">Enroll Student</a></li>
+                              <li><a href="ComingSoon.html">Allocate Course</a></li>
+                              <li><a href="ComingSoon.html">Search Faculty</a></li>
+                             
+                            </ul>
+                            </li>
+                        <li class="divider"></li>
+
+                        <li class="dropdown-submenu">
+                            <a href="ComingSoon.html" class="dropdown-toggle" data-toggle="dropdown">Manage Attendence</a>
+                            
+                            </li>
+                        
+                        
+                    </ul>
+                </li>
+                <li><a href="ContactUs.html"><span class="glyphicon glyphicon-earphone">CONTACT US</span></a></li>
+                <li><a href="AboutUs.html"><span class="glyphicon glyphicon-th-list">ABOUT US</span></a></li>
+                <li><a href="signup/signup.html"><span class="glyphicon glyphicon-user">SIGNUP/SIGNIN</span></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+        <marquee direction="left"><strong><a href="https://www.google.co.in">News and Updates</a></strong></marquee> 
+    </div>
+    
+  <!--================================================== End Navigation Bar=======================================================================--->
+
+  <div>
+    <h4><a href="https://classroom.google.com/u/1/h">Class 10-Science</a></h4>
+    <h4><a href="https://classroom.google.com/u/1/h">Class 10-English</a></h4>
+    <h4><a href="https://classroom.google.com/u/1/h">Class 10-Maths</a></h4>
+    <h4><a href="https://classroom.google.com/u/1/h">Class 10-Science</a></h4>
+    <h4><a href="https://classroom.google.com/u/1/h">Class 10-Science</a></h4>
+  </div>
+  
+  
+
+<!-- ==========================================================Third Container (Grid)================================================ -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find US?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Facebook</p>
+      <img src="img/2560x1600/image1.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Google+</p>
+      <img src="img/2560x1600/image2.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Youtube</p>
+      <img src="img/2560x1600/image3.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+
+<!--------------------------------------------------------------- End Third Container-------------------------------------------- -->
+<!--------------------------------------------------------------- End Third Container-------------------------------------------- -->
+
+
+<!--=============================================================== Start Footer============================================================= -->
+<footer class="container-fluid bg-4 text-center" style="height: 300px">
+  
+    <div class="row" style="margin-top:10px;">
+    <div class="col-md-2"> 
+     <strong><p>Escape</p></strong>
+      <a href="Index.html">HOME</a><br />
+      <a href="#">TEACHER</a><br />
+      <a href="#">STUDENT</a><br />
+      <a href="https://www.youtube.com">YOUTUBE VIDEOS</a><br />
+      <a href="ContactUs.html">CONTACT US</a><br />
+      <a href="AboutUs.html">ABOUT US</a><br />
+    </div>
+    <div class="col-md-3"> 
+      <strong><p> Useful Links </p></strong>
+     
+    
+    </div>-->
+   
+  </div>
+
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-md-4">
+  <div class="nav navbar-nav navbar-left">
+  
+        
+        
+        </div>
+        </div>
+        <br />
+        
+        </div>
+        </div>
+        <br />
+        
+        <div class="container-fluid">
+               <div class="row">
+                <div class="col-md-3"> 
+                    <a href="#"><span class="glyphicon glyphicon-copyright-mark glyphicon-align-left"><strong>Copyright 2021 : ESCAPE </span></strong></a>
+                </div>
+                <div class="col-md-2"> 
+                    <a href="#">All Rights Reserved</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">Terms & Condition</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="col-md-1">
+                    <a href="#">Link</a>
+                </div>
+                         </div>
+        </div>
+        <br />
+       
+                <div class="container">
+                <div class="col-sm-4">
+                
+                </div>
+                <div class="col-sm-4">
+                
+                </div>
+                <div class="col-sm-4">
+                <strong>Designed and Developed By: ESCAPE</strong>
+                </div>
+                <br />
+                <br />
+                </div>
+        
+</footer>
+<!--=================================================End Footer============================================================-->
+<!--==================================================Floating Social Icons================================================= -->
+
+<!-- Floating Social Media bar Starts -->
+<div class="float-sm">
+  <div class="fl-fl float-fb" style="background-color:#3b5998;">
+    <i class="fa fa-facebook" ></i>
+    <a href="https://www.facebook.com" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl float-tw" style="background-color:#00aced;">
+    <i class="fa fa-twitter"></i>
+    <a href="https://twitter.com" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-gp" style="background-color:#d34836;">
+    <i class="fa fa-google-plus"></i>
+    <a href="https://plus.google.com" target="_blank">Recommend us!</a>
+  </div>
+  <div class="fl-fl float-yo" style="background-color:#f40202;">
+    <i class="fa fa-youtube"></i>
+    <a href="https://www.youtube.com" target="_blank">Connect!</a>
+  </div>
+  <div class="fl-fl float-ig" style="background-color:#bc2a8d;">
+    <i class="fa fa-instagram"></i>
+    <a href="https://www.instagram.com" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-te" style="background-color:#00aced;">
+    <i class="fa fa-telegram"></i>
+    <a href="#" target="_blank">Connect!</a>
+  </div>
+</div>
+<!-- ==========================================Floating Social Media bar Ends======================================== -->
+</form>
+<!--=================================================Bootstrap Ends====================================================================-->    
+    
+<!--=================================================Javascrip Starts====================================================================--> 
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/counter.js" type="text/javascript"></script>
+    <script src="js/dropdown.js" type="text/javascript"></script>
+<!--=================================================Javascrip Ends====================================================================--> 
+</body>
+</html>
